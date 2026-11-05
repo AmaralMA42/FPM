@@ -1,5 +1,7 @@
 # Full Paper Machinist (FPM)
 
+![Full Paper Machinist — official FPM visual identity](assets/brand/fpm-logo-horizontal.png)
+
 **Researcher-directed scientific work with AI — public documentation preview**
 
 [Português](README.pt-BR.md) · [Get started](GET_STARTED.md) · [Method](docs/METHOD.md) · [Architecture](docs/ARCHITECTURE.md) · [Limitations](docs/LIMITATIONS.md) · [Roadmap](docs/ROADMAP.md)

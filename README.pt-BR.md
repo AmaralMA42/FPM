@@ -1,5 +1,7 @@
 # Full Paper Machinist (FPM)
 
+![Full Paper Machinist — identidade visual oficial do FPM](assets/brand/fpm-logo-horizontal.png)
+
 **Pesquisa científica dirigida pelo pesquisador, com apoio de IA — prévia pública de documentação**
 
 [English](README.md) · [Como começar](GET_STARTED.md) · [Método](docs/METHOD.md) · [Arquitetura](docs/ARCHITECTURE.md) · [Limitações](docs/LIMITATIONS.md) · [Próximas etapas](docs/ROADMAP.md)
