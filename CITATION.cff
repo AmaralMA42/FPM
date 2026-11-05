@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite the FPM Research Companion public starter version when reusing this material."
+type: software
+title: "Full Paper Machinist (FPM): Research Companion public starter"
+version: "0.1.0"
+url: "https://github.com/AmaralMA42/FPM"
+repository-code: "https://github.com/AmaralMA42/FPM"
+license: GPL-3.0-only
+authors:
+  - family-names: "Amaral"
+    given-names: "Marco Antonio"
+abstract: >-
+  Portable researcher-directed AI conversation starter for translating informal
+  research intentions into scientific questions, experimental designs and
+  appropriate tools, with an optional educational two-dimensional Ising example.

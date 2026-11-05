@@ -1,0 +1,42 @@
+{
+  "status": "EXECUTED_MONTE_CARLO_EXPLORATORY_ONLY",
+  "model": "2D zero-field ferromagnetic Ising",
+  "Hamiltonian": "H=-J sum_nearest_neighbor s_i s_j, J=1, periodic square lattice",
+  "update": "Metropolis, deterministic alternating checkerboard sublattice sweeps, even L",
+  "measurement": "one observation every thin full sweeps after burnin",
+  "chi_connected": "N/T * (<m^2>-<m>^2), signed m",
+  "chi_abs": "N/T * (<m^2>-<|m|>^2), modified finite-size proxy",
+  "uncertainty": "SE across independent RNG replicas; does not diagnose equilibration or integrated autocorrelation",
+  "Tc_exact_infinite_square": 2.269185314213022,
+  "profile": "quick",
+  "settings": {
+    "sizes": [
+      8,
+      16,
+      24
+    ],
+    "temps": [
+      1.8,
+      2.1,
+      2.25,
+      2.4,
+      2.7,
+      3.0
+    ],
+    "burnin": 250,
+    "samples": 100,
+    "thin": 3,
+    "replicas": 3
+  },
+  "base_seed": 20261104,
+  "independent_rng_keys": [
+    "base_seed",
+    "L",
+    "int(round(T*1e6))",
+    "replica"
+  ],
+  "python_version": "3.13.5",
+  "numpy_version": "2.3.5",
+  "matplotlib_plots": true,
+  "disclaimer": "No precise Tc inference, exponent inference or independent scientific validation claimed"
+}
