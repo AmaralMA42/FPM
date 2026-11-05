@@ -1,35 +1,22 @@
-# Public architecture / Arquitetura pública
-
-## One project, progressive levels of use
+# Architecture / Arquitetura pública
 
 ```text
-Researcher / pesquisador
-    |
-    +-- Public documentation (available now)
-    |      +-- README and guided first conversation
-    |      +-- method, limitations, release roadmap
-    |
-    +-- Portable Autoboot (planned; not released)
-    |      +-- minimal plain-text starting context
-    |      +-- optional skills, loaded as required
-    |
-    +-- Browser Navigator (planned; not released)
-    |      +-- offline interactive guidance
-    |      +-- illustrative educational simulations
-    |
-    +-- Research Kit (planned; not released)
-           +-- templates and schemas
-           +-- optional code and validation tools
+Researcher's idea or technical question / Ideia do pesquisador
+                       |
+             Conversational FPM Companion
+             understand → orient → concretize
+                       |
+       suitable methods + available AI tools
+                       |
+      plan or execution → actual evidence → interpretation
+                       |
+        human decision + optional short handoff
 ```
 
-The intended architecture separates **conversation and planning**, **scientific execution**, and **evidence/provenance**. The public repository currently contains only the documentation tier. It is neither an autonomous runtime nor a cloud compute service.
+The **public starter is a Markdown interaction layer**, independent of model vendor. It can be used in a general AI chat. It neither executes code nor installs external agents by itself. It does not provide persistent memory, browsing, credentials, literature or computing resources.
 
-A future Autoboot is intended to remain usable as plain text on services without native agent-skill support. Reading an instruction file does not give an AI internet access, persistent memory, compute tools or authority over external actions.
+The Ising source is **optional local Python code** with its own dependencies. It is a scientific teaching example, not an AI backend. The full internal FPM governance, research custody, advanced Autoboot, Navigator and Research Kit are **not distributed**.
 
-## Custody and authorization boundaries
+Separation of concerns: the researcher defines the scientific goal and authorizes actions; the Companion helps interpret, design and route work; real tools produce data; external controls and researcher review evaluate claims. Research data and source publications remain in their own repositories under appropriate authorization.
 
-- **Public distribution:** selected and reviewed documentation, followed by independently tested downloadable releases.
-- **Scientific workspaces:** research-specific assumptions, code, data, decisions and records under their owners' control.
-- **Private development/custody:** historical scientific evidence and unreleased artifacts, not imported here by default.
-
-Public research case studies and reproducibility packages require independent rights and validation reviews. Version labels and file hashes identify artifacts; they do not, by themselves, establish scientific validity or human approval.
+The FPM Project may in the future adapt external open-source research tools. The v0.1 starter does **not** implement self-updating discovery or automatic tool installation. Scope and rights for future components will be decided separately.

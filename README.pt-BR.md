@@ -1,54 +1,36 @@
 # Full Paper Machinist (FPM)
 
-![Full Paper Machinist — identidade visual oficial do FPM](assets/brand/fpm-logo-horizontal.png)
+![Full Paper Machinist — identidade visual oficial do FPM](https://raw.githubusercontent.com/AmaralMA42/FPM/main/assets/brand/fpm-logo-horizontal.png)
 
-**Pesquisa científica dirigida pelo pesquisador, com apoio de IA — prévia pública de documentação**
+**Uma ponte entre suas ideias de pesquisa e as ferramentas de IA.**
 
-[English](README.md) · [Como começar](GET_STARTED.md) · [Método](docs/METHOD.md) · [Arquitetura](docs/ARCHITECTURE.md) · [Limitações](docs/LIMITATIONS.md) · [Próximas etapas](docs/ROADMAP.md)
+[English](README.md) · [Comece aqui](GET_STARTED.md) · [Início da conversa](starter/START.pt-BR.md) · [Exemplo Ising 2D](examples/ising2d/README.pt-BR.md) · [Método](docs/METHOD.md) · [Limites](docs/LIMITATIONS.md)
 
-O Full Paper Machinist (FPM) é um projeto para tornar a colaboração entre pesquisadores e sistemas de IA mais **útil, transparente e cientificamente responsável**. Seu foco é transformar perguntas interessantes em alternativas testáveis, análises fundamentadas na literatura, experimentos computacionais proporcionais e afirmações compatíveis com as evidências.
+Uma ideia científica nem sempre nasce como uma pergunta formalizada. O **FPM Research Companion** ajuda o pesquisador a conversar sobre o que deseja compreender, encontrar hipóteses e caminhos plausíveis, escolher métodos e ferramentas apropriados e transformar a direção escolhida em uma investigação realizável. **O pesquisador continua responsável pelas decisões científicas.**
 
-O pesquisador define a direção científica. A IA pode auxiliar na exploração, modelagem, programação, análise e escrita **somente quando as ferramentas e evidências necessárias estiverem realmente disponíveis**. Decisões humanas, experimentos executados e verificações independentes não se confundem com sugestões geradas por IA.
+A contribuição pretendida não é um algoritmo científico mais autônomo, mas uma **interface de tradução e orientação**, especialmente útil a quem não conhece agentes, prompts ou fluxos de IA. A eficácia dessa abordagem ainda não foi medida independentemente.
 
-## Por onde começar
+## Experimente agora — sem instalar software
 
-Este repositório público contém, por enquanto, **documentação, não uma versão baixável do FPM ou de seu Autoboot**.
+1. Abra [o início em português](starter/START.pt-BR.md). No GitHub, use **Raw** para copiar **o arquivo inteiro** e colar em uma conversa nova com uma IA (ou copie todo o texto do arquivo no ZIP).
+2. Conte sua ideia com suas palavras, por exemplo: *“Tenho curiosidade sobre fenômenos coletivos e transições de fase, mas não sei como começar uma pesquisa.”*
+3. Discuta a primeira direção proposta; peça explicações, alternativas ou um plano, conforme seu interesse. Você não precisa completar formulário nem baixar o exemplo de física.
+4. Se quiser continuar outra hora, peça um **resumo recuperável**. O modelo opcional está em [NOTEBOOK](starter/NOTEBOOK.md).
 
-**[Experimente uma conversa científica guiada](GET_STARTED.md)** com uma IA de sua preferência. É um exemplo disponível agora, não o pacote completo de iniciação.
+O Companion é constituído de instruções abertas em Markdown, não é um modelo ou aplicativo instalado. A disponibilidade de busca bibliográfica, leitura de arquivos, Python ou outros recursos **depende do assistente e da sessão**. Uma proposta de execução não é resultado executado.
 
-## Componentes previstos — ainda não publicados
+## Conheça um exemplo científico
 
-| Componente | Finalidade | Disponibilidade |
-| --- | --- | --- |
-| **FPM Autoboot** | Instruções portáteis para iniciar um assistente de pesquisa em IA compatível | Candidato privado; não publicado |
-| **FPM Navigator** | Interface HTML autossuficiente e offline com demonstrações científicas ilustrativas | Alpha privado; revisão de conteúdo e direitos pendente |
-| **FPM Research Kit** | Templates, esquemas, testes e ferramentas científicas opcionais | Candidato privado; não publicado |
+O [laboratório Ising 2D](examples/ising2d/README.pt-BR.md) mostra como passar da curiosidade sobre ordem magnética para escolhas de modelo, observáveis e código Monte Carlo reproduzível. É **opcional** para usar o Companion. O exemplo traz código próprio, testes elementares e dados exploratórios; não reivindica uma estimativa precisa da temperatura crítica.
 
-Os downloads aprovados aparecerão como **GitHub Releases versionadas**, com checksums e escopo de validação explícito.
+O artigo *Quarantine Games on Networks* utiliza uma investigação computacional muito mais longa. Seu [repositório científico separado](https://github.com/AmaralMA42/quarantine_games_network) contém o código e os dados publicados de reprodução. O FPM não copia esses materiais nem reivindica uma avaliação independente de seus agentes a partir desse caso.
 
-## Princípios científicos
+## Se você já tem experiência
 
-- **Pergunta antes da infraestrutura:** identificar o que o pesquisador quer compreender.
-- **Alternativas e controles:** comparar mecanismos e considerar resultados negativos informativos.
-- **Evidência antes da conclusão:** distinguir hipóteses, testes propostos, execução, observações, validação e interpretação.
-- **Documentação proporcional:** registrar decisões e checkpoints quando a continuidade e a reprodutibilidade exigirem.
-- **Autoridade científica humana:** escopo, interpretação e publicação permanecem sob decisão do pesquisador.
+Comece diretamente com seu problema técnico, desenho ou dados. O Companion deve dispensar explicações elementares desnecessárias e ajudar a comparar observáveis, limitações, incerteza e ferramentas disponíveis.
 
-O FPM **não é** um cientista autônomo certificado, serviço de computação, garantia de validade ou originalidade científica, nem substituto da revisão por pares.
+## O que o FPM ainda não é
 
-## Documentação
+Não é um cientista autônomo certificado, uma garantia de originalidade ou validade, um serviço de computação, um meio de recuperar fontes inacessíveis nem substituto de pareceres independentes. [Método](docs/METHOD.md), [arquitetura](docs/ARCHITECTURE.md), [limitações](docs/LIMITATIONS.md) e [roadmap](docs/ROADMAP.md) descrevem os limites e próximos componentes.
 
-- [Como começar](GET_STARTED.md) — primeiro exercício sem instalação.
-- [Método científico](docs/METHOD.md) — princípios e distinções de evidência.
-- [Arquitetura](docs/ARCHITECTURE.md) — componentes previstos e limites.
-- [Limitações](docs/LIMITATIONS.md) — o que foi e não foi demonstrado.
-- [Roteiro de publicação](docs/ROADMAP.md) — etapas para os downloads públicos.
-- [English](README.md) — apresentação em inglês.
-
-## Direitos e limites da distribuição
-
-Esta é uma **prévia pública de documentação**. Não contém arquivos científicos privados, assets do alpha congelado, bases de dados de colaboradores ou uma release autorizada da pesquisa Quarantine Games.
-
-O repositório contém um arquivo de licença [GNU GPL v3](LICENSE), mas isso **não libera automaticamente** os direitos sobre materiais de terceiros ainda não publicados. Não compartilhe dados confidenciais em Issues públicas.
-
-Mantido em [AmaralMA42/FPM](https://github.com/AmaralMA42/FPM).
+Copyright © 2026 Marco Antonio Amaral. Os materiais originais desta versão FPM Research Companion v0.1.0 são distribuídos sob a licença [GNU GPL v3.0 somente](LICENSE) (`GPL-3.0-only`). Bibliotecas e serviços externos, assim como o projeto Quarantine Games vinculado, mantêm suas próprias licenças aplicáveis. Os metadados para citação estão em [`CITATION.cff`](CITATION.cff). Evite divulgar materiais confidenciais em issues públicas ou serviços de IA sem verificar sua política de privacidade.

@@ -1,24 +1,18 @@
-# Public release roadmap / Roteiro de publicação
+# Public release roadmap / Roteiro público
 
-**Status: public documentation preview. No downloadable FPM or Autoboot release has been approved.**
+The **FPM Research Companion v0.1.0** is available as a small, text-based interface between a scientist and available AI tools. Its primary contribution is guiding the researcher's own questions, methods and decisions — not maximizing autonomous agents.
 
-The milestones below are gates, **not promised delivery dates**.
+## Initial distribution / Primeira distribuição
 
-| Gate | Requirement | Public status |
-| --- | --- | --- |
-| D0 | Bilingual introduction, method, limits and a usable manual first example | Documentation candidate |
-| D1 | Authorship, license scope, rights and third-party content review | Pending |
-| D2 | Fresh-start testing of portable Autoboot in distinct AI environments | Pending |
-| D3 | Offline Navigator review: content, browser operation, accessibility and privacy | Pending |
-| D4 | Repeatable packaging, manifest/checksums, appropriate CI and security review | Pending |
-| D5 | Explicit maintainer acceptance of scope, provenance, citation and tagged public release | Pending |
+- One [portable conversation starter](../GET_STARTED.md) in Portuguese or English, usable without installation.
+- Optional [method/tool guidance](../starter/TOOLS_AND_CHOICES.md), [critical review](../starter/REVIEW.md) and [transferable research note](../starter/NOTEBOOK.md).
+- An optional [2D Ising educational lab](../examples/ising2d/README.md) with Python source, basic tests and clearly labeled exploratory data.
+- A reference to the separate [Quarantine Games research repository](https://github.com/AmaralMA42/quarantine_games_network).
 
-## Planned distribution assets — not yet public
+## What still needs its own review / Próximas decisões
 
-- **FPM Autoboot:** portable, text-oriented research assistant startup; optional skills as needed.
-- **FPM Navigator:** standalone offline HTML exploration; no embedded language model.
-- **FPM Research Kit:** optional templates, data schemas and validated helpers.
+- Any new public release or substantial capability requires maintainer approval of scope, attribution, third-party rights and evidence claims.
+- Tools or agent integrations must be selected for their scientific value and evaluated in their actual execution environment.
+- Additional interfaces (Navigator, full Autoboot, Research Kit), interoperable workflow metadata and broader usability studies remain **optional future directions**, not prerequisites for this starter.
 
-Each approved release should state the exact version and verification scope, what remains experimental, which examples are educational, and how published tests can be reproduced. Private scientific archives and frozen development materials are not part of the public distribution by default.
-
-Please do not submit confidential datasets, credentials or unpublished manuscripts to public GitHub Issues.
+There is **no automatic self-updating integration system** in the initial distribution, and no promised date for a larger release. The scientific article, this methodological starter and research-specific datasets have separate ownership, versioning and validation.

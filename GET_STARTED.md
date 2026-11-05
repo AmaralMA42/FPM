@@ -1,29 +1,39 @@
-# Getting started / Como começar
+# Comece aqui / Get started
 
-**Available now: a guided research conversation.** The versioned FPM Autoboot ZIP is **not public yet**. You can try the approach below with any AI that accepts text; its tool access and response quality depend on the service.
+## Português
 
-## English — three minutes
+Você não precisa saber escrever *prompts* nem instalar nada para começar com o FPM Research Companion.
 
-1. Copy this into an AI conversation:
+1. Abra [**START em português**](starter/START.pt-BR.md). No GitHub, abra a opção **Raw** (arquivo em texto puro) e **copie todo o conteúdo**. Se estiver usando o ZIP, basta abrir o arquivo e copiá-lo inteiro.
+2. Cole o texto em uma **conversa nova com a IA de sua preferência**. Em seguida, descreva naturalmente o que pretende estudar.
+3. Continue conversando: peça para explorar uma ideia, comparar métodos ou ir direto a um plano técnico. Não há formulário nem experiência obrigatória com IA.
 
-   > I want to explore a scientific question: **[describe the phenomenon, model, or problem]**. Help me compare two or three plausible approaches, identify a minimal test that distinguishes them, and separate what we know from what would still need to be checked. Do not claim to have consulted sources, run code, or validated results unless you actually have.
+Você pode começar, por exemplo, com:
 
-2. Choose one test that is small enough to understand. Ask which parameters, assumptions, baseline comparisons and possible failure modes matter.
-3. If computation or literature is needed, establish whether this AI actually has access to those tools. A proposed test is **not** an executed test.
+> Quero investigar como ideias se espalham numa rede, mas não sei quais modelos existem. Ajude-me a descobrir um caminho interessante.
 
-**Example:** “Could a change in local information alter a population dynamics model? What minimal alternative models and controls would discriminate between explanations?”
+Ou com algo já técnico:
 
-## Português — três minutos
+> Tenho resultados de simulação; quero verificar se os controles e as incertezas sustentam a conclusão.
 
-1. Copie esta mensagem para uma conversa com uma IA:
+O [laboratório didático Ising 2D](examples/ising2d/README.pt-BR.md) é **opcional**. Para continuar outra hora, você pode pedir uma [nota curta recuperável](starter/NOTEBOOK.md).
 
-   > Quero investigar uma pergunta científica: **[descreva o fenômeno, modelo ou problema]**. Ajude-me a comparar duas ou três abordagens plausíveis, identificar um teste mínimo que permita distingui-las e separar o que sabemos do que ainda exigiria verificação. Não diga que consultou fontes, executou código ou validou resultados se não o fez realmente.
+## English
 
-2. Escolha um teste pequeno e compreensível. Pergunte quais parâmetros, pressupostos, controles e possíveis falhas são importantes.
-3. Se precisar de computação ou literatura, confirme quais ferramentas a IA realmente pode acessar. Um experimento proposto **não é** um experimento executado.
+You do not need prompt-engineering skills or an installation to try FPM Research Companion.
 
-**Exemplo:** “Uma mudança na informação local pode alterar a dinâmica de um modelo de populações? Quais modelos mínimos e controles distinguiriam explicações concorrentes?”
+1. Open [**START in English**](starter/START.en.md). On GitHub, choose **Raw** and **copy the entire file**. From the ZIP, simply open and copy the whole file.
+2. Paste it into a **fresh chat with your preferred AI assistant**, then describe your research interest in your own words.
+3. Keep talking: explore a question, compare scientific options or go straight to an experiment design. No form or prior AI-workflow knowledge required.
 
-## What comes next / O que vem depois
+For example:
 
-The planned **Autoboot**, **Navigator HTML** and **Research Kit** will provide more structured experiences. None is distributed from this repository yet. Follow the [release roadmap](docs/ROADMAP.md) and read the [limitations](docs/LIMITATIONS.md).
+> I want to investigate collective behavior and phase transitions, but I am not sure which model is appropriate.
+
+Or:
+
+> I have simulation output and want to assess which controls and uncertainty estimates would support my claim.
+
+The [2D Ising demonstration](examples/ising2d/README.md) and [transferable note](starter/NOTEBOOK.md) are optional.
+
+**Limits / Limites:** This starter is portable text, **not an installed AI system**. It does not grant web access, a Python environment, access to PDFs, private files, memory across chats, or permissions. Only claim that sources have been read, code has run, or results have been verified when this actually occurred. Check the chosen AI service's privacy terms before sharing unpublished material.

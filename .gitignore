@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+*.key
+*.pem
+ising_results/
+ising_study/
+.ipynb_checkpoints/
+.pytest_cache/

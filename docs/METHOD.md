@@ -1,33 +1,22 @@
-# Method / Método
+# Scientific method / Método científico
 
-## From a question to useful evidence
+The **human question comes first**; the interaction is not a rigid stage-gate workflow. The FPM Companion helps a researcher formulate researchable alternatives, choose useful tests and tools, interpret actual evidence and retain human control. It should adapt to the researcher's discipline and expertise, including cases where a conversation ends with an explanation rather than an experiment.
 
-FPM is being designed around a modest rule: **choose the next scientifically informative action, not the largest available workflow**.
+**Evidence vocabulary:**
 
-A research interaction may finish with an explanation or comparison, or continue toward mathematical derivation, simulation design, executed computation, independent checks, figures or a manuscript. These outcomes require progressively stronger evidence.
+| State / Estado | Meaning / Significado |
+|---|---|
+| Idea / ideia | Curiosity, candidate mechanism, tentative claim / curiosidade ou hipótese inicial |
+| Proposed / proposto | Plan, method, prediction / algo planejado, não executado |
+| Chosen / escolhido | Explicit researcher's decision / escolha humana identificada |
+| Executed / executado | Work actually performed with identifiable inputs/tools / trabalho realizado |
+| Observed / observado | Output actually obtained / resultado obtido |
+| Checked / verificado | Examined against suitable controls or references / teste realizado e delimitado |
+| Interpreted / interpretado | Claim calibrated to evidence and limitations / conclusão proporcional à evidência |
+| Accepted / aceito | Researcher's specific approval, when relevant / aceite humano competente |
 
-### Evidence distinctions
+A software test does not establish scientific generality, an AI judgment is not primary evidence, and access to an article abstract is not proof that a full paper was read. The optional [handoff note](../starter/NOTEBOOK.md) makes long tasks recoverable without forcing documentation into short conversations.
 
-| State | Meaning |
-| --- | --- |
-| **Idea / hipótese** | Plausible explanation or exploratory direction |
-| **Design / plano** | Specified model, calculation, comparison or experiment |
-| **Executed / executado** | Action actually performed, with its methods and conditions identified |
-| **Observed / observado** | Result obtained from the specified action |
-| **Checked / verificado** | Result examined against suitable controls or independent validation |
-| **Interpretation / interpretação** | Claim calibrated to observations and limitations |
-| **Accepted / aceito** | Explicit researcher decision, when relevant |
+Tools are **replaceable means**, not the aim of FPM. The Companion can suggest open-source scientific tools where appropriate but must respect access, environment, licensing, methodological fit and actual capabilities; it does not automatically integrate tools or self-update in this first public version.
 
-An AI's assertion that a step was performed is **not** the evidence for that step. Records, computations, sources and checks must be inspectable where appropriate.
-
-### Principles
-
-- Start with the researcher's actual question and background, not a mandatory scientific domain.
-- Compare credible alternatives and look for discriminating tests and negative controls.
-- Treat inaccessible papers as unverified, rather than inventing their contents.
-- Require actual tool availability and identifiable parameters before describing computation as performed.
-- Introduce persistent records proportionally when projects become long-running or claim-bearing.
-- Keep scientific writing downstream of evidence; clear prose cannot increase certainty.
-- Reserve final interpretation, resource commitments and publication decisions for the researcher.
-
-This page describes a **methodological design**, not a benchmark establishing autonomous scientific performance.
+The [Ising example](../examples/ising2d/README.md) is an educational case. The separate [Quarantine Games](https://github.com/AmaralMA42/quarantine_games_network) project illustrates longer research with independent computational records, not proof of FPM's comparative superiority.
