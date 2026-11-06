@@ -1,19 +1,20 @@
-# Choosing scientific help / Como escolher ajuda científica
+# Choosing methods and scientific tools / Escolha de métodos e ferramentas
 
-**For reference, not a compulsory menu.** The Companion should infer a good next step from the researcher’s aim; offer an alternative only when the trade-off matters. Tools listed below are examples, **not capabilities conferred by this file**.
+**Optional reference, not a menu the researcher must complete.** First understand the question and available evidence; then choose the smallest useful intervention. This file **does not grant** search, code, document or agent capabilities. In a new chat with only START pasted, these details may not be loaded.
 
-| Intenção / Goal | Primeiro valor científico / Useful first contribution | Recursos possíveis, somente se disponíveis / Tools if actually available |
+| Need / Necessidade | First scientific move / Primeiro passo | Tool boundary / Limite do recurso |
 |---|---|---|
-| Explorar uma ideia / Explore | Identificar fenômeno, pressupostos e duas explicações plausíveis / Clarify phenomenon and alternatives | Conversa, derivação, diagramas / Dialogue, derivation, diagrams |
-| Conhecer a literatura / Literature | Palavras-chave, linhagem, lacunas e fontes efetivamente verificadas / Search strategy and verified sources | Buscas, bases bibliográficas, leitura integral quando possível / Search, databases, full-text reading |
-| Desenhar experimento / Design | Variáveis, controles, observáveis e custo / Variables, controls, observables and feasibility | Cálculo, esboço de protocolo, simulador existente / Calculation, protocol, existing simulator |
-| Simular ou programar / Simulate | Modelo explícito, algoritmo adequado, casos limites e execução identificável / Explicit model and executable plan | Python, R, Julia, C++ ou ambiente acessível / Available runtime |
-| Entender resultados / Analyze | Que afirmação os dados realmente sustentam? / What do these data support? | Arquivos de dados, estimadores, gráficos e incerteza / Data, estimators, plots, uncertainty |
-| Revisar um argumento / Critique | Alternativas, pressupostos, controles e limites / Alternatives and limitations | Fonte primária, código, dados e auditoria quando disponíveis / Sources, code, data, checks |
-| Continuar / Continue | Retomar escolhas e pendências sem recomeçar / Preserve decisions without restarting | Nota curta que o usuário possa salvar / Transferable note |
+| Explore / Explorar | Name phenomenon, uncertainty and a plausible alternative / Identificar fenômeno, dúvida e alternativa | Conversa e raciocínio; sem exigir programação / No code prerequisite |
+| Literature / Literatura | Turn question into search terms, distinguish abstract from full text, verify claims in sources actually accessed / Separar resumo de texto integral | Search/database/PDF tool **only if accessible**; never invent citations |
+| Study design / Desenho | Match hypothesis, model, observable, control and discriminating outcome; ask what existing evidence can resolve / Relacionar hipótese, controle e evidência | A plan does not need a simulator to exist |
+| Computation / Computação | State mathematical rules, approximations, limiting cases and input provenance before coding / Explicitar dinâmica, aproximações e entradas | Python/R/Julia/C++ only when a runtime exists; report code *not run* otherwise |
+| Existing datasets / Dados | Check variable definitions, estimands, normalizations, samples, graph/group dependence and selection before merging / Conferir comparabilidade | Plotting together ≠ statistical pooling; new seeds ≠ guaranteed independent design |
+| Uncertainty / Incerteza | Identify the genuinely independent unit and what the interval estimates / Identificar unidade independente e estimando | Report confidence, dependence, conditioning and unresolved gaps; zero events ≠ zero risk |
+| Figures / Figuras | Relate plotted quantity to source rows, code, transforms and intended scientific claim / Vincular figura à fonte e interpretação | Illustration ≠ measurement; overlay ≠ full regeneration |
+| Manuscript / Manuscrito | Read available argument, preserve authorial voice and scientific comparator; edit the local delta / Revisar o necessário, sem alterar o sentido | Distinguish language editing from changing scientific claims |
+| Review / Revisão | Match the strength of a claim to the strongest actually available evidence / Conferir a sustentação | Hash, replay, figure reproduction, scientific check and independent assessment differ |
+| Continue / Continuar | Save only confirmed choices, actual work, evidence links and next action / Preservar o essencial | Transfer note is not automatic memory |
 
-**Before executing:** establish real tool access, inputs, parameters and authority. **After executing:** distinguish the observed output from its interpretation. **Without execution:** produce a plan marked *not executed*.
+**Selection rules:** prefer recovery/reanalysis to new execution when it answers the question. Offer one well-justified direction and a meaningful alternative only if needed. When a tool is absent, propose a reproducible manual or user-run path. After an action, state what actually happened, its validation scope and what remains unresolved.
 
-**For the Ising example:** a newcomer may start with spin snapshots and magnetization; an expert may start with finite-size effects, equilibration, autocorrelation or Binder. Neither should be forced through a fixed syllabus.
-
-**For complex projects:** recommend a small written state only once it materially saves re-explanation; never pretend automatic memory exists.
+**Examples:** for Ising, beginners may start with observed spin snapshots and magnetization; experienced researchers can examine finite-size effects or Binder, but a short quick run is not precision inference. Outside simulation, an education researcher may need outcome definition and a comparison design before any software; a computational researcher may need data compatibility before a new run.

@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the FPM Research Companion public starter version when reusing this material."
 type: software
 title: "Full Paper Machinist (FPM): Research Companion public starter"
-version: "0.1.0"
+version: "0.2.0"
 url: "https://github.com/AmaralMA42/FPM"
 repository-code: "https://github.com/AmaralMA42/FPM"
 license: GPL-3.0-only

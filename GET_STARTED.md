@@ -16,7 +16,7 @@ Ou com algo já técnico:
 
 > Tenho resultados de simulação; quero verificar se os controles e as incertezas sustentam a conclusão.
 
-O [laboratório didático Ising 2D](examples/ising2d/README.pt-BR.md) é **opcional**. Para continuar outra hora, você pode pedir uma [nota curta recuperável](starter/NOTEBOOK.md).
+Dois [percursos editoriais de mediação científica](examples/RESEARCH_PATHS.pt-BR.md) mostram aplicações em educação e análise de dados. O [laboratório didático Ising 2D](examples/ising2d/README.pt-BR.md) é **opcional**. Para continuar outra hora, você pode pedir uma [nota curta recuperável](starter/NOTEBOOK.md).
 
 ## English
 
@@ -34,6 +34,6 @@ Or:
 
 > I have simulation output and want to assess which controls and uncertainty estimates would support my claim.
 
-The [2D Ising demonstration](examples/ising2d/README.md) and [transferable note](starter/NOTEBOOK.md) are optional.
+Two [editorial scientific-research paths](examples/RESEARCH_PATHS.en.md) illustrate education and computational data analysis. The [2D Ising demonstration](examples/ising2d/README.md) and [transferable note](starter/NOTEBOOK.md) are optional.
 
 **Limits / Limites:** This starter is portable text, **not an installed AI system**. It does not grant web access, a Python environment, access to PDFs, private files, memory across chats, or permissions. Only claim that sources have been read, code has run, or results have been verified when this actually occurred. Check the chosen AI service's privacy terms before sharing unpublished material.
