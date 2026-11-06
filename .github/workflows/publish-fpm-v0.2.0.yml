@@ -1,0 +1,65 @@
+name: Publish accepted FPM Research Companion v0.2.0 (one-time)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/publish-fpm-v0.2.0.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    if: github.repository == 'AmaralMA42/FPM' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the accepted v0.2.0 source commit
+        uses: actions/checkout@v4
+        with:
+          ref: c859d441794cb14fa79e0a00586c38394a99e5bc
+          persist-credentials: false
+      - name: Validate version and exact file integrity
+        shell: bash
+        run: |
+          set -euo pipefail
+          grep -q 'version: "0.2.0"' CITATION.cff
+          sha256sum -c SHA256SUMS.txt
+          test "$(wc -l < SHA256SUMS.txt)" -eq 33
+      - name: Create the self-contained distribution archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          git archive --format=zip --output="$RUNNER_TEMP/FPM_Research_Companion_v0.2.0.zip" HEAD
+          sha256sum "$RUNNER_TEMP/FPM_Research_Companion_v0.2.0.zip"
+      - name: Create GitHub tag and release at accepted source commit
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          TAG_SHA="$(gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/v0.2.0" --jq '.object.sha' 2>/dev/null || true)"
+          if [ -n "$TAG_SHA" ] && [ "$TAG_SHA" != "c859d441794cb14fa79e0a00586c38394a99e5bc" ]; then
+            echo 'Refusing to retarget an existing, different tag.' >&2
+            exit 1
+          fi
+          if gh release view v0.2.0 --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo 'v0.2.0 GitHub Release already exists; leaving it unchanged.'
+            exit 0
+          fi
+          cat > "$RUNNER_TEMP/fpm-release-notes.md" <<'FPM_NOTES'
+          FPM Research Companion v0.2.0 is the first public methodology-converged release of the lightweight researcher–AI mediation starter.
+
+          Highlights:
+          - More context-sensitive scientific guidance in Portuguese and English, with portable single-file START instructions.
+          - Clearer separation of research intentions, plans, execution, evidence, verification and researcher acceptance.
+          - Guidance on study design, comparability of datasets, independent sampling units, provenance, uncertainty and reuse before new computation.
+          - Portuguese methods guide and two explicitly illustrative, interdisciplinary research paths.
+          - Existing Ising 2D educational code, sample data and official FPM logo preserved, along with GPL-3.0-only license and citation metadata.
+
+          Scope: this is portable Markdown guidance plus a small optional educational Python example, not an installed AI backend or an independently validated autonomous scientist. No unpublished FPM research data or manuscript was released.
+
+          The downloadable ZIP is built from the exact accepted source commit. Consult SHA256SUMS.txt inside the archive for individual file checksums.
+          FPM_NOTES
+          gh release create v0.2.0 "$RUNNER_TEMP/FPM_Research_Companion_v0.2.0.zip" --repo "$GITHUB_REPOSITORY" --target "c859d441794cb14fa79e0a00586c38394a99e5bc" --title "FPM Research Companion v0.2.0" --notes-file "$RUNNER_TEMP/fpm-release-notes.md"
