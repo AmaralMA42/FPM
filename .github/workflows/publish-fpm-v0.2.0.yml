@@ -39,7 +39,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          TAG_SHA="$(gh api "repos/$GITHUB_REPOSITORY/git/ref/tags/v0.2.0" --jq '.object.sha // empty' 2>/dev/null || true)"
+          TAG_SHA="$(git ls-remote --tags origin 'refs/tags/v0.2.0' | awk '{print $1}')"
+          echo "Observed v0.2.0 tag: ${TAG_SHA:-ABSENT}"
           if [ -n "$TAG_SHA" ] && [ "$TAG_SHA" != "c859d441794cb14fa79e0a00586c38394a99e5bc" ]; then
             echo 'Refusing to retarget an existing, different tag.' >&2
             exit 1
