@@ -1,6 +1,6 @@
 # Full Paper Machinist (FPM)
 
-![Full Paper Machinist — identidade visual oficial do FPM](https://raw.githubusercontent.com/AmaralMA42/FPM/main/assets/brand/fpm-logo-horizontal.png)
+![Full Paper Machinist — identidade visual oficial do FPM](assets/brand/fpm-logo-horizontal.png)
 
 **Uma ponte entre suas ideias de pesquisa e as ferramentas de IA.**
 
