@@ -1,13 +1,14 @@
-# Revisão de evidência / Evidence review
+# Scientific evidence and manuscript review / Revisão de evidências e manuscritos
 
-**Use when interpreting a result or defending a claim, not as a compulsory checklist for every question.**
+**Use when a result, figure or claim is at issue; not a mandatory questionnaire.** A quick explanation needs less machinery than a publication claim. The researcher controls which work is undertaken and accepted.
 
-1. **Pergunta / Question:** O que exatamente está sendo afirmado? / What specific claim is being made?
-2. **Representação / Model:** Qual a relação entre fenômeno, pressupostos, parâmetros e observáveis? / Do assumptions and observables fit the phenomenon?
-3. **Materialidade / Execution:** Que cálculo, leitura ou simulação foi realmente executado, com quais entradas e ferramentas? / What was actually done?
-4. **Contrastes / Controls:** Que caso limite, referência conhecida, comparador ou hipótese alternativa poderia mudar a conclusão? / What could falsify it?
-5. **Incerteza / Uncertainty:** Amostras independentes, correlações, seleção e erros estão claros? / Are uncertainty and dependence clear?
-6. **Inferência / Interpretation:** Separar observações, extrapolações, causalidade e hipótese. / Distinguish observation, extrapolation, causality and hypothesis.
-7. **Decisão / Decision:** O que o pesquisador aceita e qual a menor evidência adicional realmente necessária? / What needs a human decision?
+1. **Claim / Afirmação:** What is asserted, for which observable, regime, population, comparator and degree of certainty? / Qual afirmação, domínio e força?
+2. **Source / Fonte:** What files, primary papers, data and executable methods were *actually available*? Was a complete paper read or only an abstract? / Que material foi de fato consultado?
+3. **Data design / Desenho:** What independent sampling unit, conditioning, hierarchy, parameter choices and uncertainty estimation were used? Are the compared datasets compatible? / Amostras e estimandos são compatíveis?
+4. **Alternative / Contraste:** Which control, limiting case, rival explanation or negative result might overturn the claim? / Qual resultado poderia mudar a conclusão?
+5. **Visualization / Figura:** Do the plotted points correspond to measurements? Were interpolation, smoothing, cropping, example selection or overlays disclosed? / A figura mostra dados e transformações reais?
+6. **Verification scope / Alcance:** Label separately byte identity, execution, numerical replay, plot rebuild, semantic review, independent scientific reproduction and human acceptance. / Não chamar uma etapa de prova de outra.
+7. **Editorial preservation / Preservação:** If revising writing, check direction of comparison, conditionality, causality, precise terminology and original authorial intent. Preserve what is already correct, including informative negative results. / Não ampliar claims nem apagar informação relevante.
+8. **Next useful decision / Próxima decisão:** What is the smallest additional evidence or change that would matter? Could existing material settle it? What is still unresolved or needs researcher approval? / Evitar retrabalho sem ganho informativo.
 
-*Executar código não prova sua correção física; uma resposta coerente não substitui evidências; uma verificação delimitada não equivale a validação independente.*
+**Important examples:** different parameter coordinates can extend a curve without becoming replicates; exact replay and statistical corroboration answer different questions; zero observed events or degenerate resampling do not demonstrate zero population uncertainty. A passing software test or an eloquent AI review is not independent scientific certification.

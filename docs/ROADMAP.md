@@ -1,18 +1,21 @@
-# Public release roadmap / Roteiro público
+# Public roadmap / Roteiro público
 
-The **FPM Research Companion v0.1.0** is available as a small, text-based interface between a scientist and available AI tools. Its primary contribution is guiding the researcher's own questions, methods and decisions — not maximizing autonomous agents.
+The FPM Research Companion is a **lightweight interface for researcher-directed scientific reasoning**. It draws on accepted internal FPM methodological experience without requiring the visitor to operate internal agents, governance files or data repositories.
 
-## Initial distribution / Primeira distribuição
+## Available foundation / Base disponível
 
-- One [portable conversation starter](../GET_STARTED.md) in Portuguese or English, usable without installation.
-- Optional [method/tool guidance](../starter/TOOLS_AND_CHOICES.md), [critical review](../starter/REVIEW.md) and [transferable research note](../starter/NOTEBOOK.md).
-- An optional [2D Ising educational lab](../examples/ising2d/README.md) with Python source, basic tests and clearly labeled exploratory data.
-- A reference to the separate [Quarantine Games research repository](https://github.com/AmaralMA42/quarantine_games_network).
+- Copyable [Portuguese/English starter](../GET_STARTED.md), no installation for conversation.
+- Optional [method choices](../starter/TOOLS_AND_CHOICES.md), [evidence review](../starter/REVIEW.md) and [transferable note](../starter/NOTEBOOK.md).
+- Optional [Ising 2D educational laboratory](../examples/ising2d/README.md) with Python, simple source tests and exploratory data.
+- Two [illustrative interdisciplinary research paths in English](../examples/RESEARCH_PATHS.en.md) / [percursos em português](../examples/RESEARCH_PATHS.pt-BR.md).
+- [Method (English)](METHOD.md) / [Método (português)](METHOD.pt-BR.md) describing scientific distinctions and the public/internal transfer boundary.
 
-## What still needs its own review / Próximas decisões
+## Method convergence / Convergência metodológica
 
-- Any new public release or substantial capability requires maintainer approval of scope, attribution, third-party rights and evidence claims.
-- Tools or agent integrations must be selected for their scientific value and evaluated in their actual execution environment.
-- Additional interfaces (Navigator, full Autoboot, Research Kit), interoperable workflow metadata and broader usability studies remain **optional future directions**, not prerequisites for this starter.
+The v0.2.0 source integrates selected, already-ratified general methodological lessons: compatibility before pooling, distinct levels of verification, evidence-first experimentation, editorial semantic preservation, uncertainty and lightweight continuity. **This does not establish improved AI performance or independent scientific validation.** The public version remains a maintained, selective expression of FPM’s internal methodology, not an automatic mirror of private materials.
 
-There is **no automatic self-updating integration system** in the initial distribution, and no promised date for a larger release. The scientific article, this methodological starter and research-specific datasets have separate ownership, versioning and validation.
+## Later choices, only if needed / Ideias futuras condicionais
+
+A small automated source-test check, user-facing usability improvements and actual tool integrations may be useful. Autonomous agents, full Autoboot/Navigator, automatic long-term memory, RO-Crate exports, complex dashboards and mandatory benchmarks are **not prerequisites**. New components require a concrete use case and rights review.
+
+The scientific manuscript, methodological Companion and project datasets maintain separate evidence, permissions and versioning. No self-updating integration or automatic distribution is claimed.

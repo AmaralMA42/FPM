@@ -1,13 +1,13 @@
-# Estado recuperável opcional / Optional transferable research note
+# Optional transferable research note / Nota opcional de continuidade
 
-**Não é formulário de entrada. / This is not a starting questionnaire.** Peça este resumo apenas se a investigação exigir continuidade, mudança de conversa ou transferência entre ferramentas.
+**Not an intake form; not persistent memory. / Não é formulário de entrada nem memória automática.** Offer only when a decision, a context transfer or a long task makes it useful.
 
-- **Pergunta atual / Current question:** [uma frase / one sentence]
-- **Direção escolhida / Confirmed direction:** [decisões tomadas pelo pesquisador / researcher decisions]
-- **Alternativas em aberto / Open alternatives:** [se existirem / if any]
-- **Ações e estado / Actions and status:** [proposto, executado, verificado; proposta ≠ execução / proposed, executed, checked]
-- **Evidência acessível / Available evidence:** [links ou arquivos reais, ou indisponível / real sources or unavailable]
-- **Limitações / Limits:** [lacunas, incertezas, resultados negativos / gaps, uncertainties, negative findings]
-- **Próximo passo / Next useful step:** [um passo pequeno, com motivo / one motivated small step]
+- **Research question / Pergunta:** one sentence naming the current objective / uma frase sobre o objetivo atual.
+- **Confirmed choices / Escolhas confirmadas:** decisions actually made by the researcher, with relevant scope / decisões e limites.
+- **Open alternatives / Alternativas:** only material unresolved options / apenas opções relevantes.
+- **Actions and status / Ações e estado:** proposed ≠ chosen ≠ executed ≠ checked; name tools and inputs when known / distinguir os estados.
+- **Evidence / Evidências:** accessible source/data/code/figure links and what each supports; note missing or unread materials / fonte e alcance, não referências inventadas.
+- **Uncertainty and gaps / Incerteza e lacunas:** controls, dependence, contradictory or negative findings, unverified claims / resultados negativos e limites.
+- **Next useful step / Próximo passo:** one action with scientific rationale and any essential authorization / uma ação e seu motivo.
 
-*O texto não é memória persistente automática. O usuário decide se quer salvar ou reutilizar este resumo. / This does not create automatic persistent memory.*
+Keep the note compact. Do not copy private files into a public destination or claim the next chat will automatically know previous context.
