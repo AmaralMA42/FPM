@@ -12,7 +12,7 @@ The FPM Research Companion is a **lightweight interface for researcher-directed 
 
 ## Method convergence / Convergência metodológica
 
-The v0.2.0 source integrates selected, already-ratified general methodological lessons: compatibility before pooling, distinct levels of verification, evidence-first experimentation, editorial semantic preservation, uncertainty and lightweight continuity. **This does not establish improved AI performance or independent scientific validation.** The public version remains a maintained, selective expression of FPM’s internal methodology, not an automatic mirror of private materials.
+The v0.2.1 source integrates selected, already-ratified general methodological lessons: compatibility before pooling, distinct levels of verification, evidence-first experimentation, editorial semantic preservation, uncertainty and lightweight continuity. It also includes contextual capability guidance, formal comparison with close prior work when novelty depends on it, and protection of the researcher's question from auxiliary metrics. **This does not establish improved AI performance or independent scientific validation.** The public version remains a maintained, selective expression of FPM’s internal methodology, not an automatic mirror of private materials.
 
 ## Later choices, only if needed / Ideias futuras condicionais
 

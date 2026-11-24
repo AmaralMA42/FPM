@@ -25,4 +25,4 @@ Propagation is **incremental and reviewed**, not an automatic data feed: a relev
 
 Responsibility remains separated: researcher authorizes and judges, Companion helps formulate and select, real tools produce evidence, checking assesses a defined claim and human acceptance remains explicit. Code output is not a substitute for empirical support.
 
-Future tools may be integrated when scientifically useful and permitted; v0.2.0 does **not** implement agent orchestration, persistent memory, automatic discovery, self-updates or access to unpublished FPM custody.
+Future tools may be integrated when scientifically useful and permitted; v0.2.1 does **not** implement agent orchestration, persistent memory, automatic discovery, self-updates or access to unpublished FPM custody.
