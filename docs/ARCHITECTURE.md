@@ -25,4 +25,4 @@ Propagation is **incremental and reviewed**, not an automatic data feed: a relev
 
 Responsibility remains separated: researcher authorizes and judges, Companion helps formulate and select, real tools produce evidence, checking assesses a defined claim and human acceptance remains explicit. Code output is not a substitute for empirical support.
 
-Future tools may be integrated when scientifically useful and permitted; v0.2.1 does **not** implement agent orchestration, persistent memory, automatic discovery, self-updates or access to unpublished FPM custody.
+The optional [BOOT (English)](../starter/BOOT.en.md) / [BOOT (Português)](../starter/BOOT.pt-BR.md) adds declarative initialization, an explicitly configured locator anchor, selective recovery and checked documentary updates using existing tools. It can support durable external records; it does **not** install a backend, guarantee instruction adherence, implement autonomous orchestration, automatic discovery or self-updates, or grant access to unpublished FPM custody. New-session recovery requires an actual anchor and readable files.

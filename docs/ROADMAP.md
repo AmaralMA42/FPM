@@ -14,6 +14,10 @@ The FPM Research Companion is a **lightweight interface for researcher-directed 
 
 The v0.2.1 source integrates selected, already-ratified general methodological lessons: compatibility before pooling, distinct levels of verification, evidence-first experimentation, editorial semantic preservation, uncertainty and lightweight continuity. It also includes contextual capability guidance, formal comparison with close prior work when novelty depends on it, and protection of the researcher's question from auxiliary metrics. **This does not establish improved AI performance or independent scientific validation.** The public version remains a maintained, selective expression of FPM’s internal methodology, not an automatic mirror of private materials.
 
+## Optional continuity in v0.3.0 / Continuidade opcional
+
+The boot module defines initial setup, restart, minimal workspace documents, natural-language modes and fallback. Cross-chat recovery must be validated on a fresh session with actual storage and anchor; no automatic discovery is claimed.
+
 ## Later choices, only if needed / Ideias futuras condicionais
 
 A small automated source-test check, user-facing usability improvements and actual tool integrations may be useful. Autonomous agents, full Autoboot/Navigator, automatic long-term memory, RO-Crate exports, complex dashboards and mandatory benchmarks are **not prerequisites**. New components require a concrete use case and rights review.

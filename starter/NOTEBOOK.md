@@ -11,3 +11,5 @@
 - **Next useful step / Próximo passo:** one action with scientific rationale and any essential authorization / uma ação e seu motivo.
 
 Keep the note compact. Do not copy private files into a public destination or claim the next chat will automatically know previous context.
+
+When using the optional BOOT module, a checked durable note may update the relevant live state/catalog. It does not replace the current entry or confer acceptance. / Com o BOOT opcional, uma nota efetivamente salva e conferida pode atualizar Estado Vivo/Catálogo pertinentes; não substitui a entrada vigente nem concede aceite.
