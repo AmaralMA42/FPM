@@ -19,6 +19,10 @@ The intended contribution is a **conversational translation and guidance layer**
 
 This is a portable set of Markdown instructions, **not an installed model or application**. Web access, coding, simulations, documents, and memories depend on the AI platform and its actual tools. A proposed experiment is not an executed one.
 
+## Optional persistent research workspace
+
+Use [BOOT in English](starter/BOOT.en.md) to initialize or resume an entry, live state and catalog with actual storage and permissions. Once the locator anchor is configured, try “Start FPM mode”, “FPM — Exploratory investigation” or “FPM — Resume investigation”. A new session needs the anchor and access to the files; automatic memory is not guaranteed.
+
 ## What scientific support looks like
 
 The Companion carries selected, **already-ratified general methodological lessons** from FPM's internal research practice: check whether evidence is comparable before combining datasets, distinguish execution from independent scientific validation, recover existing results before recomputing, and protect the meaning of manuscript claims. These are applied **when relevant**, not as a mandatory workflow. [Scientific method](docs/METHOD.md) · [Two interdisciplinary illustrative paths](examples/RESEARCH_PATHS.en.md). The examples are editorial, not user-study results.
@@ -31,4 +35,4 @@ The separate [Quarantine Games on Networks research repository](https://github.c
 
 Experienced researchers can start directly from their technical problem without an introductory tutorial. [Method](docs/METHOD.md), [architecture](docs/ARCHITECTURE.md), [limitations](docs/LIMITATIONS.md) and [roadmap](docs/ROADMAP.md) explain the boundaries.
 
-FPM is **not** a certified autonomous scientist, computing service, scientific validity guarantee, or replacement for critical review. Copyright © 2026 Marco Antonio Amaral. Original materials distributed in this FPM Research Companion v0.2.1 are licensed under [GNU GPL v3.0 only](LICENSE) (`GPL-3.0-only`). External libraries, services, and the linked Quarantine Games project retain their own applicable licenses. See [`CITATION.cff`](CITATION.cff) for citation metadata. Avoid disclosing confidential work in public issues or unfamiliar AI services.
+FPM is **not** a certified autonomous scientist, computing service, scientific validity guarantee, or replacement for critical review. Copyright © 2026 Marco Antonio Amaral. Original materials distributed in this FPM Research Companion v0.3.0-rc1 are licensed under [GNU GPL v3.0 only](LICENSE) (`GPL-3.0-only`). External libraries, services, and the linked Quarantine Games project retain their own applicable licenses. See [`CITATION.cff`](CITATION.cff) for citation metadata. Avoid disclosing confidential work in public issues or unfamiliar AI services.

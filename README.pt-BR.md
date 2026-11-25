@@ -19,6 +19,10 @@ A contribuição pretendida não é um algoritmo científico mais autônomo, mas
 
 O Companion é constituído de instruções abertas em Markdown, não é um modelo ou aplicativo instalado. A disponibilidade de busca bibliográfica, leitura de arquivos, Python ou outros recursos **depende do assistente e da sessão**. Uma proposta de execução não é resultado executado.
 
+## Ambiente de pesquisa persistente (opcional)
+
+Use [BOOT em português](starter/BOOT.pt-BR.md) para constituir ou retomar um ambiente com entrada, estado vivo e catálogo, usando armazenamento e permissões reais. Depois de configurar a âncora, experimente “Iniciar modo FPM”, “FPM — Investigação exploratória” ou “FPM — Retomar investigação”. Uma sessão nova precisa conhecer a âncora e acessar os arquivos; não há memória automática garantida.
+
 ## Como a mediação científica funciona
 
 O Companion incorpora **princípios metodológicos gerais já ratificados** no FPM interno: verificar comparabilidade antes de combinar conjuntos de dados, distinguir execução de validação independente, recuperar resultados antes de recomputar e preservar o sentido das afirmações de um manuscrito. Aplica essas lições **quando pertinentes**, sem transformar a conversa em um procedimento obrigatório. Veja o [método](docs/METHOD.pt-BR.md) e [dois percursos interdisciplinares ilustrativos](examples/RESEARCH_PATHS.pt-BR.md). Os exemplos são editoriais, não testes com usuários.
@@ -37,4 +41,4 @@ Comece diretamente com seu problema técnico, desenho ou dados. O Companion deve
 
 Não é um cientista autônomo certificado, uma garantia de originalidade ou validade, um serviço de computação, um meio de recuperar fontes inacessíveis nem substituto de pareceres independentes. [Método](docs/METHOD.pt-BR.md), [arquitetura](docs/ARCHITECTURE.md), [limitações](docs/LIMITATIONS.md) e [roadmap](docs/ROADMAP.md) descrevem os limites e próximos componentes.
 
-Copyright © 2026 Marco Antonio Amaral. Os materiais originais desta versão FPM Research Companion v0.2.1 são distribuídos sob a licença [GNU GPL v3.0 somente](LICENSE) (`GPL-3.0-only`). Bibliotecas e serviços externos, assim como o projeto Quarantine Games vinculado, mantêm suas próprias licenças aplicáveis. Os metadados para citação estão em [`CITATION.cff`](CITATION.cff). Evite divulgar materiais confidenciais em issues públicas ou serviços de IA sem verificar sua política de privacidade.
+Copyright © 2026 Marco Antonio Amaral. Os materiais originais desta versão FPM Research Companion v0.3.0-rc1 são distribuídos sob a licença [GNU GPL v3.0 somente](LICENSE) (`GPL-3.0-only`). Bibliotecas e serviços externos, assim como o projeto Quarantine Games vinculado, mantêm suas próprias licenças aplicáveis. Os metadados para citação estão em [`CITATION.cff`](CITATION.cff). Evite divulgar materiais confidenciais em issues públicas ou serviços de IA sem verificar sua política de privacidade.

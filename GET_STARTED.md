@@ -18,6 +18,10 @@ Ou com algo já técnico:
 
 Dois [percursos editoriais de mediação científica](examples/RESEARCH_PATHS.pt-BR.md) mostram aplicações em educação e análise de dados. O [laboratório didático Ising 2D](examples/ising2d/README.pt-BR.md) é **opcional**. Para continuar outra hora, você pode pedir uma [nota curta recuperável](starter/NOTEBOOK.md).
 
+## Continuidade opcional
+
+Para pesquisas longas, forneça também [BOOT em português](starter/BOOT.pt-BR.md) à IA e diga **Iniciar modo FPM**. Escolha onde guardar os documentos; configure a âncora de localização nas instruções persistentes da plataforma ou salve-a para anexar ao próximo chat. A IA deve conferir o salvamento e explicar limitações. Se você não tiver armazenamento acessível, continue em conversa e use uma nota transferível.
+
 ## English
 
 You do not need prompt-engineering skills or an installation to try FPM Research Companion.
@@ -37,3 +41,7 @@ Or:
 Two [editorial scientific-research paths](examples/RESEARCH_PATHS.en.md) illustrate education and computational data analysis. The [2D Ising demonstration](examples/ising2d/README.md) and [transferable note](starter/NOTEBOOK.md) are optional.
 
 **Limits / Limites:** This starter is portable text, **not an installed AI system**. It does not grant web access, a Python environment, access to PDFs, private files, memory across chats, or permissions. Only claim that sources have been read, code has run, or results have been verified when this actually occurred. Check the chosen AI service's privacy terms before sharing unpublished material.
+
+## Optional continuity
+
+For long research projects, also supply [BOOT in English](starter/BOOT.en.md) and say **Start FPM mode**. Select storage and configure the locator anchor in persistent platform instructions, or save it for the next chat. The assistant must confirm actual writes and report limitations. No persistent storage? Use ordinary conversation and a transferable note.
