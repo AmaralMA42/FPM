@@ -1,0 +1,38 @@
+name: FPM candidate archive verification
+on:
+  push:
+    branches: [validation/companion-v030-rc1-20261124]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: 44fd42c61bd42198eeacdff169063ae74fc9062c
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Verify exact candidate source and package
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(git rev-parse HEAD)" = "44fd42c61bd42198eeacdff169063ae74fc9062c"
+          test "$(git rev-parse HEAD^{tree})" = "a06e18cbf607ca391d2671ebf94baf5bee6cfb34"
+          test "$(git ls-files | wc -l)" -eq 36
+          test "$(wc -l < SHA256SUMS.txt)" -eq 35
+          sha256sum -c SHA256SUMS.txt
+          grep -F 'version: "0.3.0-rc1"' CITATION.cff
+          git archive --format=zip --output="$RUNNER_TEMP/FPM_Research_Companion_v0.3.0-rc1.zip" HEAD
+          unzip -t "$RUNNER_TEMP/FPM_Research_Companion_v0.3.0-rc1.zip"
+          mkdir "$RUNNER_TEMP/fpm-clean"
+          unzip -q "$RUNNER_TEMP/FPM_Research_Companion_v0.3.0-rc1.zip" -d "$RUNNER_TEMP/fpm-clean"
+          cd "$RUNNER_TEMP/fpm-clean"
+          test "$(find . -type f | wc -l)" -eq 36
+          sha256sum -c SHA256SUMS.txt
+          sha256sum "$RUNNER_TEMP/FPM_Research_Companion_v0.3.0-rc1.zip"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: FPM_Research_Companion_v0.3.0-rc1
+          path: ${{ runner.temp }}/FPM_Research_Companion_v0.3.0-rc1.zip
+          retention-days: 30
